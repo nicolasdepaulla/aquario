@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calcule o Volume do Aquário</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Volume de Aquário</h1>
+        <form id="volumeForm">
+            <label for="comprimento">Comprimento em centímetros:</label>
+            <input type="number" id="comprimento" name="comprimento" required>
+            
+            <label for="largura">Largura em centímetros:</label>
+            <input type="number" id="largura" name="largura" required>
+            
+            <label for="altura">Altura em centímetros:</label>
+            <input type="number" id="altura" name="altura" required>
+            
+            <button type="button" onclick="calcularVolume()">Calcular Volume</button>
+        </form>
+        
+        <div class="resultado" id="resultado">
+            Insira as dimensões e clique em calcular para obter o volume do aquário.
+        </div>
+    </div>
+    <script src="aquario.js"></script>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/sw.js')
+                .then((registration) => {
+                    console.log('Service Worker registrado com escopo: ', registration.scope)
+                }).catch((error) => {
+                    console.log('Falha no registro do Service Worker: ', error)
+                })
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+/*
+@author Nicolas de Paula
+*/
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url('aquario.png');
+    background-size: cover; /* Faz a imagem de fundo cobrir todo o container */
+    background-position: center; /* Centraliza a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333; /* Cor do texto para contrastar com a imagem de fundo */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 18px;
+    text-align: left;
+    display: block;
+    margin-bottom: 5px;
+    color: #333; /* Cor do texto para contrastar com a imagem de fundo */
+}
+
+input {
+    padding: 15px;
+    font-size: 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333; /* Cor do texto para contrastar com a imagem de fundo */
+}
+
+/* Media Queries for responsive design */
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    label, input, button, .resultado {
+        font-size: 18px;
+    }
+
+    button {
+        padding: 15px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 601px) {
+    .container {
+        max-width: 800px;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    input {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    button {
+        padding: 20px;
+        font-size: 22px;
+    }
+
+    .resultado {
+        font-size: 22px;
+    }
+}
