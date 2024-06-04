@@ -4,9 +4,13 @@ const cachePWA = 'cache-v1'
 // todos os arquivos devem ser adicionados ao vetor (exceto o manifesto)
 const urlsToCache = [
   '/',
-  '/index.html',  
+  '/index.html',
+  '/style.css',
+  '/aquario.js',
+  '/aquario.png',
+  '/aquarium.png',  
   '/hal192.png',
-  '/aquarium.png'
+  '/hal512.png'
 ]
 
 // Instalando o Service Worker e armazenando os arquivos no cache
