@@ -13,4 +13,5 @@
 
 # aquarioapp
 criando o primeiro app funcional
+
 ![qrcode_nicolasdepaulla github io](https://github.com/nicolasdepaulla/aquario/assets/129803875/88cd115f-b047-4db9-adc8-e2d737205ef0)
