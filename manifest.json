@@ -1,5 +1,5 @@
 {
-  "name": "Progressive Web App",
+  "name": "aquario",
   "short_name": "aquario",
   "start_url": "/aquario/",
   "orientation ":"portrait",
@@ -11,7 +11,7 @@
       "type": "image/png"
     },
     {
-      "src": "hal512.png",
+      "src": "aquario.png",
       "sizes": "512x512",
       "type": "image/png"
     }
