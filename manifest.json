@@ -1,7 +1,7 @@
 {
   "name": "Progressive Web App",
   "short_name": "aquario",
-  "start_url": "/aquarioapp/",
+  "start_url": "/aquario/",
   "orientation ":"portrait",
   "display": "standalone",
   "icons": [
